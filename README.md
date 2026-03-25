@@ -35,3 +35,23 @@ gallery/
 ## Root-Datei
 
 Die Root-Datei `index.json` verweist bewusst auf `gallery/index.json`, damit Clients mit einem festen Einstiegspunkt arbeiten koennen.
+
+## Lokaler Publish-Workflow
+
+Repo-kompatible Gallery-Pakete aus dem Designer enthalten bereits:
+
+- `designId`
+- `repository.packagePath`
+- `repository.indexEntry`
+
+Damit kann ein erzeugtes Paket lokal ueber das Hauptprojekt-Script direkt in dieses Repo uebernommen werden:
+
+```bash
+node scripts/publish-to-gallery-repo.mjs /pfad/zum/package.json openhasp-gallery
+```
+
+Das Script:
+
+- schreibt `gallery/designs/<design-id>/package.json`
+- fuegt den passenden Eintrag in `gallery/index.json` ein oder aktualisiert ihn
+- sortiert den Index stabil nach `id`
