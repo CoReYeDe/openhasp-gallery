@@ -1,4 +1,20 @@
 {
   "version": 1,
-  "designs": []
+  "designs": [
+    {
+      "id": "ohd-openhasp-design",
+      "title": "Test",
+      "description": "",
+      "display": {
+        "key": "480x480",
+        "label": "480x480",
+        "width": 480,
+        "height": 480
+      },
+      "version": "0.34.2",
+      "path": "gallery/designs/ohd-openhasp-design/package.json",
+      "preview": "gallery/designs/ohd-openhasp-design/preview.png",
+      "tags": []
+    }
+  ]
 }
