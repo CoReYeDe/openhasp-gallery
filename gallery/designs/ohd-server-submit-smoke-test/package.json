@@ -1,0 +1,97 @@
+{
+  "packageVersion": 1,
+  "kind": "gallery",
+  "designId": "ohd-server-submit-smoke-test",
+  "title": "Server Submit Smoke Test",
+  "description": "Automated smoke test for gallery submission flow",
+  "createdAt": "2026-03-25T21:21:45.159Z",
+  "sourceAppVersion": "0.35.0",
+  "preset": "480x480",
+  "display": {
+    "key": "480x480",
+    "label": "480x480",
+    "width": 480,
+    "height": 480
+  },
+  "publishOptions": {
+    "assetModes": {}
+  },
+  "repository": {
+    "packagePath": "gallery/designs/ohd-server-submit-smoke-test/package.json",
+    "assetBasePath": "gallery/designs/ohd-server-submit-smoke-test/assets/",
+    "previewPath": "gallery/designs/ohd-server-submit-smoke-test/preview.svg",
+    "indexEntry": {
+      "id": "ohd-server-submit-smoke-test",
+      "title": "Server Submit Smoke Test",
+      "description": "Automated smoke test for gallery submission flow",
+      "display": {
+        "key": "480x480",
+        "label": "480x480",
+        "width": 480,
+        "height": 480
+      },
+      "version": "0.35.0",
+      "path": "gallery/designs/ohd-server-submit-smoke-test/package.json",
+      "preview": "gallery/designs/ohd-server-submit-smoke-test/preview.svg",
+      "tags": []
+    }
+  },
+  "project": {
+    "projectVersion": 3,
+    "preset": "480x480",
+    "pages": [
+      1
+    ],
+    "currentPage": 1,
+    "objects": [
+      {
+        "page": 1,
+        "id": 1,
+        "obj": "btn",
+        "x": 20,
+        "y": 20,
+        "w": 180,
+        "h": 48,
+        "text": "Commit Test",
+        "bg_color": "#334155",
+        "text_color": "#ffffff",
+        "radius": 12
+      }
+    ],
+    "pageSettings": [],
+    "assets": [],
+    "integrations": {
+      "virtualDisplay": {
+        "enabled": false,
+        "plate": "",
+        "topicPrefix": "",
+        "publishState": false
+      },
+      "homeAssistant": {
+        "wsEnabled": false,
+        "selectedEntityId": ""
+      }
+    }
+  },
+  "sanitizationReport": {
+    "kind": "gallery",
+    "removedBindings": 0,
+    "removedActions": 0,
+    "removedIntegrationFields": 1,
+    "includedAssets": 0,
+    "placeholderAssets": 0,
+    "urls": 0,
+    "emails": 0,
+    "ips": 0,
+    "hosts": 0,
+    "tokens": 0
+  },
+  "submission": {
+    "fingerprint": "6a8573c8",
+    "duplicateKey": "ohd-server-submit-smoke-test:6a8573c8",
+    "branchName": "submission/ohd-server-submit-smoke-test",
+    "prTitle": "Gallery: Server Submit Smoke Test",
+    "prBody": "Gallery submission for ohd-server-submit-smoke-test\n\nFingerprint: 6a8573c8\nDisplay: 480x480",
+    "submittedAt": "2026-03-25T21:21:45.159Z"
+  }
+}
