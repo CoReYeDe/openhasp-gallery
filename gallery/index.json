@@ -11,9 +11,9 @@
         "width": 480,
         "height": 480
       },
-      "version": "0.34.2",
+      "version": "0.35.0",
       "path": "gallery/designs/ohd-server-submit-smoke-test/package.json",
-      "preview": "gallery/designs/ohd-server-submit-smoke-test/preview.png",
+      "preview": "gallery/designs/ohd-server-submit-smoke-test/preview.svg",
       "tags": []
     }
   ]
