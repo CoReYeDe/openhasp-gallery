@@ -1,4 +1,20 @@
 {
   "version": 1,
-  "designs": []
+  "designs": [
+    {
+      "id": "ohd-server-submit-smoke-test",
+      "title": "Server Submit Smoke Test",
+      "description": "Automated smoke test for gallery submission flow",
+      "display": {
+        "key": "480x480",
+        "label": "480x480",
+        "width": 480,
+        "height": 480
+      },
+      "version": "0.34.2",
+      "path": "gallery/designs/ohd-server-submit-smoke-test/package.json",
+      "preview": "gallery/designs/ohd-server-submit-smoke-test/preview.png",
+      "tags": []
+    }
+  ]
 }
