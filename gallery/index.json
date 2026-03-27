@@ -1,4 +1,20 @@
 {
   "version": 1,
-  "designs": []
+  "designs": [
+    {
+      "id": "ohd-titan-orbit-623346",
+      "title": "Test 1",
+      "description": "",
+      "display": {
+        "key": "480x480",
+        "label": "480x480",
+        "width": 480,
+        "height": 480
+      },
+      "version": "0.49.7",
+      "path": "gallery/designs/ohd-titan-orbit-623346/package.json",
+      "preview": "gallery/designs/ohd-titan-orbit-623346/preview.svg",
+      "tags": []
+    }
+  ]
 }
