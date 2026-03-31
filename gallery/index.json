@@ -2,6 +2,21 @@
   "version": 1,
   "designs": [
     {
+      "id": "ohd-nebula-onyx-063660",
+      "title": "480x480 - Default",
+      "description": "",
+      "display": {
+        "key": "480x480",
+        "label": "480x480",
+        "width": 480,
+        "height": 480
+      },
+      "version": "0.54.12",
+      "path": "gallery/designs/ohd-nebula-onyx-063660/package.json",
+      "preview": "gallery/designs/ohd-nebula-onyx-063660/preview.svg",
+      "tags": []
+    },
+    {
       "id": "ohd-titan-orbit-623346",
       "title": "Test 1",
       "description": "",
